@@ -1,0 +1,33 @@
+.grid{
+    display: grid;
+    min-height: 80vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 70px 1fr 100px;
+    grid-template-areas: "buscar buscar buscar buscar"
+    "video1 video2 video3 video4";
+}
+main{
+    color: white;
+    font-family: Arial;
+}
+header{
+    background-color: gray;
+    grid-area: buscar;
+    border: 1px;
+}
+nav{
+    background-color: cornflowerblue;
+    grid-area: video1;
+}
+section{
+    background-color: indigo;
+    grid-area: video2;
+}
+#video3{
+    background-color: darkmagenta;
+    grid-area: video3;
+}
+#video4{
+    background-color: darkorchid;
+    grid-area: video4;
+}
