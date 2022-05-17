@@ -1,0 +1,174 @@
+.grid{
+    display: grid;
+    min-height: 80vh;
+    grid-template-columns: 235px 270px 270px 270px 270px;
+    grid-template-rows: 70px 250px 265px 265px;
+    grid-template-areas: "nav buscar buscar buscar buscar"
+    "nav video1 video2 video3 video4" "nav video5 video6 video7 video8"
+    "nav video9 video10 video11 video12";
+}
+body{
+    background-color: #181414;
+}
+main{
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+}
+header{
+    background-color: #282424;
+    grid-area: buscar;
+    border: 1px;
+    width: 1080px;
+    line-height: 25px;
+    position:fixed;
+    left: 235px;
+}
+#buscar{
+    background-color: #181414;
+    font-weight: normal;
+    margin: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 20px;
+    line-height: 15px;
+}
+nav{
+    background-color: #282424;
+    grid-area: nav;
+    position: fixed;
+}
+.caja{
+background-color: #181414;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 3px;
+padding-bottom: 3px;
+border-radius: 20px;
+}
+#opciones a:hover{
+    background-color: white;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 20px;
+}
+a{
+    margin: 15px;
+    color: white;
+    font-weight: normal;
+}
+ul{
+    line-height: 50px;
+}
+#video1{
+    background-color: red;
+    grid-area: video1;
+    margin: 10px;
+}
+#video2{
+    background-color: indigo;
+    grid-area: video2;
+    margin: 10px;
+}
+#video3{
+    background-color: darkmagenta;
+    grid-area: video3;
+    margin: 10px;
+}
+#video4{
+    background-color: darkorchid;
+    grid-area: video4;
+    margin: 10px;
+}
+#video8{
+    background-color: red;
+    grid-area: video8;
+    margin: 10px;
+}
+#video6{
+    background-color: indigo;
+    grid-area: video6;
+    margin: 10px;
+}
+#video7{
+    background-color: darkmagenta;
+    grid-area: video7;
+    margin: 10px;
+}
+#video5{
+    background-color: darkorchid;
+    grid-area: video5;
+    margin: 10px;
+}
+#video9{
+    background-color: red;
+    grid-area: video9;
+    margin: 10px;
+}
+#video10{
+    background-color: indigo;
+    grid-area: video10;
+    margin: 10px;
+}
+#video11{
+    background-color: darkmagenta;
+    grid-area: video11;
+    margin: 10px;
+}
+#video12{
+    background-color: darkorchid;
+    grid-area: video12;
+    margin: 10px;
+}
+@media(max-width:600px){
+    .grid{
+    
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px 150px 150px 150px 150px;
+        grid-template-areas: "buscar"
+        "video1""video2""video3" "video4";
+    }
+    nav{
+        display:none;
+    }
+    header{
+        background-color: #282424;
+        grid-area: buscar;
+        border: 1px;
+        width: 1080px;
+        left: -0px;
+        line-height: 25px;
+        position:fixed;
+    }
+    #buscar{
+        background-color: #181414;
+        font-weight: normal;
+        margin: 4px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        border-radius: 20px;
+        line-height: 15px;
+    }
+    a{
+        margin: 2px;
+        color: white;
+        font-weight: normal;
+    }
+    #opciones a:hover{
+        background-color: white;
+        color: black;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        border-radius: 20px;
+    }
+    
+}

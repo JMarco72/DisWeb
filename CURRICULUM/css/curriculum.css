@@ -2,7 +2,7 @@ body{
     background-color: purple;
 }
 #cabecera{
-    color: rgb(9, 234, 241); 
+    color: cornflowerblue; 
     font-family: Arial; 
     text-align: center;
     font-size: 40px;
@@ -10,12 +10,12 @@ body{
 }
 #enlaces {
     text-decoration: none;
-    background-color: black;
+    background-color: indigo;
     text-align: right;
     text-decoration: none;
 }
 #enlaces a:hover{
-background-color: rgb(150, 115, 18);
+background-color: cornflowerblue;
 margin-top: 10px;
 padding: 10px;
 }
@@ -33,17 +33,23 @@ padding: 10px;
 }
 #nombre{
     font-family: Arial;
-    color: yellow;
+    color: cornflowerblue;
     font-weight: bold;
     font-style: italic;
 }
 #descripcion{
-    background-color: rgb(147, 170, 15);
+    background-color: darkorchid;
     padding-right: 100px;
 }
-#experiencia{
+.subtitulos{
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
-    color: yellow;
+    color: cornflowerblue;
     font-weight: bold;
+}
+#tabla{
+    border-spacing: 15px;
+}
+#Elementos{
+    color: rgb(147, 170, 15);
 }
