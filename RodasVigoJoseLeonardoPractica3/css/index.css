@@ -1,0 +1,60 @@
+.cabecera{
+    background-color: blueviolet;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.perfil{
+    vertical-align: text-top;
+    margin-left: 20px;
+    float: left;
+}
+#iniciarsesion{
+    float: right;
+    color: black;
+}
+#enlaces{
+    background-color: gray;
+    font-size: 20px;
+    padding: 20px;
+    word-spacing: 100px;
+    text-decoration: none;
+}
+#enlaces a:hover{
+    background-color: black;
+    color: white;
+    margin-top: 200px;
+    padding: 20px;
+}
+h3{
+    margin-left: 20px;
+}
+section{
+    margin-right: 480px;
+    margin-left: 20px;
+}
+aside{
+    background-color: grey;
+    float: right;
+}
+#imgnot1{
+    float: right;
+    margin-right: 250px;
+    height: 100px;
+}
+#imgnot2{
+    float: right;
+    margin-right: 250px;
+    height: 100px;
+}
+footer{
+    background-color: gray;
+}
+#perfilfooter{
+    height: 80px;
+    margin-top: 80px;
+    margin-left: 10px;
+    float: left;
+}
+table{
+    border-spacing: 20px;
+}
