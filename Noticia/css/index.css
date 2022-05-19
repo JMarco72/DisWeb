@@ -1,0 +1,55 @@
+body{
+    margin: 0px;
+}
+#titulo{
+    margin-top: 0px;
+    margin-left: 10px;
+    font-size: 35px;
+
+}
+#seccion{
+    margin-bottom: 0px;
+    color: rgb(175, 27, 27);
+    margin-left: 25px;
+    font-size: 15px;
+}
+
+#seccForm a {
+    color: white;
+    margin: 25px;
+    text-decoration: none;
+}
+
+#caja{
+    background-color: white;
+}
+
+#secciones{
+    background-color: rgb(194, 32, 32);
+    margin: 0px;
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+#foto{
+    width: 500px;
+    height: 200px;
+    float: right;
+}
+#seccForm{
+    background-color: rgb(97, 96, 96);
+    margin-top: 0px;
+    width: 100%; 
+}
+#texto{
+    margin-bottom: 0px;
+    margin-left: 15px;
+
+}
+#fecha{
+    float: right;
+    background-color: rgb(255, 34, 34);
+    margin: 0px;
+}
