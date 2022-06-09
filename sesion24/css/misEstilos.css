@@ -1,0 +1,9 @@
+#contenedor{
+    background-color: blueviolet;
+}
+.col{
+    text-align: center;
+    border: 1px solid;
+    margin-top: 10px;
+    background-color: wheat;
+}
