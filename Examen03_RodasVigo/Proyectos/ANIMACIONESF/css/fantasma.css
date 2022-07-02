@@ -1,0 +1,156 @@
+img{
+    position: absolute;
+}
+#uwu{
+    background: violet;
+    color: white;
+    padding: .2rem .3rem 1rem .3rem;
+    position: absolute;
+    border-radius: .9rem .9rem 0 0;
+    animation-name: animarF;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+#owo{
+    background: yellow;
+    color: white;
+    padding: .2rem .3rem 1rem .3rem;
+    position: absolute;
+    border-radius: .9rem .9rem 0 0;
+    animation-name: animarF;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+#ewe{
+    background: red;
+    color: white;
+    padding: .2rem .5rem 1rem .5rem;
+    position: absolute;
+    border-radius: .9rem .9rem 0 0;
+    animation-name: animarF;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+#pacman{
+    background-image: -webkit-radial-gradient(1.75em .75em, circle, transparent 10%, #EE0 10%);
+    background-image: -moz-radial-gradient(1.75em .75em, circle, transparent 10%, #EE0 10%);
+    background-image: -o-radial-gradient(1.75em .75em, circle, transparent 10%, #EE0 10%);
+    background-image: -ms-radial-gradient(1.75em .75em, circle, transparent 10%, #EE0 10%);
+    background-image: radial-gradient(1.75em .75em, circle, transparent 10%, #EE0 10%);
+    border-radius: 3em 3em 0 0;
+    height: 1.5em;
+    position: relative;
+    -moz-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    width: 3em;
+    animation-name: animarP;
+    animation-duration: 3s;
+    animation-iteration-count: infinite; 
+  }
+  
+  #pacman:after {
+      background-color: #EE0;
+      border-radius: 0 0 3em 0;
+      content: '';
+      height: 1.5em;
+      left: 0em;
+      position: absolute;
+      top: 1.45em;
+      -moz-transform: rotate(90deg);
+      -webkit-transform: rotate(90deg);
+      -o-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+      transform: rotate(90deg);
+      width: 1.5em;
+  
+    }
+
+@keyframes animarF{
+    0%{
+        left: 8rem;
+        top: 13rem;
+        color: black;
+    }
+
+    10%{
+        left: 10rem;
+        top: 13rem;
+        color: white;
+    }
+
+    20%{
+        top: 10.5rem;
+        left: 10rem;
+        color: white;
+    }
+
+    30%{
+        top: 10.5rem;
+        left: 18rem;
+        color: white;
+    }
+
+    40%{
+        top: 18rem;
+        left: 18rem;
+        color: white;
+    }
+
+    50%{
+        top: 18rem;
+        left: 15rem;
+        color: black;
+    }
+
+    60%{
+        top: 22rem;
+        left: 15rem;
+        color: black;
+    }
+
+    70%{
+        top: 22rem;
+        left: 12rem;
+        color: black;
+    }
+
+    80%{
+        top: 18rem;
+        left: 12rem;
+    }
+
+    90%{
+        top: 18rem;
+        left: 8rem;
+        color: black;
+    }
+
+    100%{
+        left: 8rem;
+        top: 13rem;
+        color: black;
+    }
+}
+
+@keyframes animarP{
+    0%{
+        left: 12rem;
+        top: 14rem;
+    }
+
+    50%{
+        left: 15rem;
+        top: 14rem;
+    }
+
+    100%{
+        left: 12rem;
+        top: 14rem;
+    }
+}

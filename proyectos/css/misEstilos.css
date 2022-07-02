@@ -1,0 +1,17 @@
+html, body{
+    height: 100%;
+}
+
+#cover-texto{
+    width: 100%;
+    margin: auto;
+    font-family: 'Times New Roman';
+}
+
+#cover3{
+    margin-top: 5%;
+    margin-left: 10%;
+    position: relative;
+    top: -50%;
+    
+}
